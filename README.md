@@ -29,7 +29,7 @@ cd portfolio-mobile
 
 
 ## Link demo
-[https://piercel2022.github.io/portfolio]
+https://piercel2022.github.io/portfolio
 ### Install : 
 To install linters and other project's dependencies run:
 
