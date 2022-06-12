@@ -1,7 +1,3 @@
-# portfolio deploy
- This project has the purpose of making my portfolio website visible online
-
-
 ## Built With
 
 - Major languages: HTML & CSS
@@ -29,7 +25,7 @@ cd portfolio-mobile
 
 
 ## Link demo
-https://piercel2022.github.io
+https://piercel2022.github.io/portfolio
 ### Install : 
 To install linters and other project's dependencies run:
 
