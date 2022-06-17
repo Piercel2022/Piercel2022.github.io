@@ -11,6 +11,17 @@
   display: block;
 }
 
+.icon {
+  display: flex;
+  width: 124px;
+  height: 44px;
+}
+
+.icon:active {
+  color: #396df2;
+  background: #fff;
+}
+
 .btn-see-project {
   border: 1px solid #396df2;
   padding: 7px;
@@ -19,7 +30,6 @@
   font-weight: 300;
   text-transform: capitalize;
   font-family: 'Poppins', sans-serif;
-  transition-duration: 0.4s;
 }
 
 a.btn-see-project {
@@ -137,12 +147,51 @@ a.btn-see-resume:active {
 
 /** About me end **/
 
-.icons {
+/*** Popup styling ***/
+
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(76, 78, 82);
+  background-color: rgb(76, 78, 82, 0.2);
+}
+
+.popup-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border-style: solid;
+  border-color: rgb(219, 214, 214);
+  border-width: 1px;
+  border-radius: 15px;
+  width: 80%;
+}
+
+.close-popup {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close-popup:hover,
+.close-popup:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.popup-title > ul {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 170.17px;
-  margin-top: 12px;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
 }
 
 .topic {
@@ -203,11 +252,6 @@ a.btn-see-resume:active {
 
 .description-text {
   color: #5e6c84;
-}
-
-.tags-buttons {
-  border-top: 1px solid rgb(236, 234, 234);
-  padding-top: 20px;
 }
 
 .popup_see_btn {

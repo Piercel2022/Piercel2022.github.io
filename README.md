@@ -1,7 +1,10 @@
+## Description of the project
+For this milestone of the portfolio website, we will implement the popup window when the user want to see the projects
+
 ## Built With
 
 - Major languages: HTML & CSS
-- A Linter for HTML & CSS
+- A Linter for HTML & CSS and Javascript
 
 
 ## Getting Started
@@ -15,11 +18,11 @@ To get a local copy up and running follow these simple example steps in your ter
 
 1. Download the Zip file or clone the repo with:
 
-git clone https://github.com/Piercel2022/portfolio.git
+git clone https://github.com/Piercel2022/my-portfolio.git
 
 2. To access cloned directory run:
 
-cd portfolio-mobile
+cd my-portfolio
 
 3. Open it with the live server
 
@@ -42,6 +45,10 @@ npx hint .
 
 npx stylelint "\*_/_.{css,scss}"
 
+3. For tracking linter errors in the Javascript files run:
+
+npx eslint .
+
 
 ## Author
 
@@ -54,7 +61,7 @@ npx stylelint "\*_/_.{css,scss}"
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the (../../issues/).
 
 ## Show your support
 
@@ -68,4 +75,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is (./MIT.md) licensed.

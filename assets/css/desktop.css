@@ -2,6 +2,7 @@ html {
   background-color: #fff;
   font-family: 'Poopins', sans-serif;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -83,6 +84,10 @@ body {
   padding-right: 12px;
 }
 
+nav .container ul li.active {
+  text-decoration: solid;
+}
+
 /*** Nav section end **/
 
 /** Headline section start **/
@@ -133,15 +138,6 @@ body {
   list-style: none;
   width: 40%;
   margin: 0 25px 0 0;
-}
-
-.icons {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 170.17px;
-  margin-top: 12px;
-  gap: 7px;
 }
 
 .social-media {
@@ -215,6 +211,12 @@ body {
   margin: 24px;
 }
 
+.icon {
+  width: 128px;
+  height: 38px;
+  margin: 4px;
+}
+
 /* Text */
 
 .intro-text-works {
@@ -242,6 +244,10 @@ body {
   font-weight: 500;
   list-style-image: url("../images/Counterping_1.png");
   padding-right: 25px;
+}
+
+.project_title {
+  color: #172b4d;
 }
 
 /* Text */
@@ -313,6 +319,13 @@ body {
   width: 100%;
 }
 
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 .dflex {
   background: #f7f7f9;
   border-radius: 8px;
@@ -359,6 +372,16 @@ body {
   font-family: 'Poppins', sans-serif;
   color: #091e42;
   height: auto;
+}
+
+.tags-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 306px;
+  height: 40px;
+  gap: 10px;
+  border-top: 1px solid rgb(236, 234, 234);
 }
 
 .header-skill {
