@@ -1,7 +1,6 @@
 /** Create data object */
 const projects = [{
   name: 'Tonic',
-  colorTitle: '#091E42',
   details: ['CANOPY', 'Back End Dev', '2019'],
   smallDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
   bigDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
@@ -16,7 +15,6 @@ const projects = [{
 },
 {
   name: 'Multi-Post Stories',
-  colorTitle: '#091E42',
   details: ['CANOPY', 'Full Stack Dev', '2022'],
   smallDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required. ',
   bigDescription: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car. ',
@@ -31,7 +29,6 @@ const projects = [{
 },
 {
   name: 'FACEBOOK 360',
-  colorTitle: '#091E42',
   details: ['FACEBOOK', 'Full Stack Dev', '2022'],
   smallDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
   bigDescription: 'Exploring the future of media in Facebooks first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
@@ -46,7 +43,6 @@ const projects = [{
 },
 {
   name: 'Multi-Post Stories',
-  colorTitle: '#091E42',
   details: ['CANOPY', 'Full Stack Dev', '2022'],
   smallDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
   bigDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
