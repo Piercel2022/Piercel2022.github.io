@@ -1,17 +1,17 @@
 /** Create data object */
 const projects = [{
-  name: 'Tonic',
-  details: ['CANOPY', 'Back End Dev', '2019'],
-  smallDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-  bigDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-  imageUrlMobile: 'assets/images/pic1.png',
-  imageUrlDesktop: 'assets/images/image_project1.png',
-  popupImageUrlMobile: 'assets/images/popup-project1-mobile.png',
-  popupImageUrlDesktop: 'assets/images/popup-project1-desk.png',
-  technologiesPopup: ['html', 'css', 'javaScript', 'ES6', 'WebPack', ' Linters'],
+  name: 'Awesome Books',
+  details: ['MICROVERSE', 'Front End Dev', '2022'],
+  smallDescription: 'Awesome Books is a project that is built with classes in ECMA Script version 6. The user enter books in a beautiful interface.',
+  bigDescription: 'Awesome Books is a project that is built with classes in ECMA Script version 6. The user enter books in a beautiful interface with the field title and author.The user also has the possibility to remove the books added.',
+  imageUrlMobile: 'assets/images/awesome_mobile.png',
+  imageUrlDesktop: 'assets/images/awesome_desktop.png',
+  popupImageUrlMobile: 'assets/images/awesome_mobile.png',
+  popupImageUrlDesktop: 'assets/images/awesome_desktop.png',
+  technologiesPopup: ['html', 'css', 'javaScript', 'ES6', ' Linters'],
   technologies: ['html', 'css', 'javaScript'],
-  linkLive: 'https://piercel2022.github.io/TONIC/',
-  linkSource: 'https://github.com/piercel2022/TONIC.git/',
+  linkLive: 'https://piercel2022.github.io/awesome-books-es6/',
+  linkSource: 'https://github.com/Piercel2022/awesome-books-es6.git/',
 },
 {
   name: 'Multi-Post Stories',
@@ -215,3 +215,5 @@ for (let c = 0; c < seeProjectButtons.length; c += 1) {
     displayProjectDescriptionPopup(seeProjectButtons[c].getAttribute('project-index'));
   });
 }
+const changeColor = document.querySelector('h1');
+changeColor.style.display = '#172B4D';
