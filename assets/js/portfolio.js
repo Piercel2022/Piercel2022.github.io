@@ -216,4 +216,4 @@ for (let c = 0; c < seeProjectButtons.length; c += 1) {
   });
 }
 const changeColor = document.querySelector('h1');
-projectPopup.style.display = '#172B4D';
+changeColor.style.display = '#172B4D';
