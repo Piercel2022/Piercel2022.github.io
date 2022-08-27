@@ -37,7 +37,7 @@ const projects = [{
   popupImageUrlMobile: 'assets/images/capstone1-mobile.png',
   popupImageUrlDesktop: 'assets/images/capstone1-desktop.png',
   technologiesPopup: ['html', 'css', 'javaScript', 'ES6', 'Linters'],
-  technologies: ['html','css', 'javaScript'],
+  technologies: ['html', 'css', 'javaScript'],
   linkLive: 'https://piercel2022.github.io/capstone1/',
   linkSource: 'https://piercel2022.github.io/capstone1.git',
 },
